@@ -1,0 +1,12 @@
+{
+    "smtp": {
+        "host": "smtpHost",
+        "user": "smtpUser",
+        "password": "smtpPassword"
+    },
+    "metabase": {
+        "url": "metabaseUrl",
+        "user": "metabaseUser",
+        "password": "metabasePassword"
+    }
+}

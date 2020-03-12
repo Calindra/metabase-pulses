@@ -1,0 +1,19 @@
+{
+  "name": "pulses",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ricardoekm@bitbucket.org/calindra/pulses.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.0",
+    "nodemailer": "^6.4.4",
+    "puppeteer": "^2.1.1"
+  }
+}
