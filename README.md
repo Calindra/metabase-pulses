@@ -1,6 +1,6 @@
 ### Metabase Pulses
 
-Send metabase pulses exactly as they're shown! This workaround a current metabase limitation due different render engines between the browser (view engine) and the server (pulses engine).
+Send metabase pulses exactly as they're shown! This workaround a current metabase limitation due different render engines IN the browser (view engine) and server (pulses engine).
 
 This is a temporary project and should be considered obsolete when the following issue is implemented: [Different chart rendered in pulse from question](https://github.com/metabase/metabase/issues/5493)
 
