@@ -2,7 +2,8 @@
     "smtp": {
         "host": "smtpHost",
         "user": "smtpUser",
-        "password": "smtpPassword"
+        "password": "smtpPassword",
+        "sender": "metabase <metabase@mydomain.com.br>"
     },
     "metabase": {
         "url": "metabaseUrl",
