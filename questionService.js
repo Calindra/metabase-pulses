@@ -43,7 +43,7 @@ async function saveQuestion(questionId) {
     const questionTimeout = 60 * 4 * 1000;
     await page.waitForFunction( () => !document.querySelector(".Loading-message"), { timeout: questionTimeout });
 
-    const text = await page.$('.mr1.Subhead-cNCOMx.hiDbPY')
+    const text = await page.$('.mr1.Text-r5zl0h-0')
     question.name = await page.evaluate(el => el.textContent, text)
 
     const graph = await page.$('.Visualization');

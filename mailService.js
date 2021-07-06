@@ -37,7 +37,7 @@ async function mailQuestion(subject,mailTo,questions) {
         });
 
         let info = await transporter.sendMail({
-        from: 'metabase <metabase@mydomain.com.br>',
+        from: config.get('smtp.sender'),
         to: mailTo,
         subject: subject, 
         text: "Pulses report",
